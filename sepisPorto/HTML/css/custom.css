@@ -1,0 +1,95 @@
+/* Add here all your CSS customizations */
+
+/*=================Slider========================*/
+.slider-container .main-label {
+  color: #fff;
+}
+
+.slider-container .top-label {
+
+}
+
+.nonWhiteText {
+  color: #a6a5a5;
+  font-weight: bold;
+}
+
+.vIP5sliderText {
+  color: #78B657
+
+}
+
+/*=================Header Call to action========================*/
+
+.home-intro {
+  background-color: #BDBDBD;
+}
+
+
+
+/*=================HR Rule for Home Page========================*/
+.homePage hr {
+  background: #a6cb56;
+}
+
+
+/*=================Featured Instruments Home Page========================*/
+
+section.section.instruments{
+  margin-top: 0;
+  padding: 5px 0;
+  background-color: #fff;
+  border-top: none;
+}
+
+
+/*=================footer========================*/
+#footer {
+  background-image: url("../img/footer-bg1.gif");
+  border-top: none;
+  background-repeat:repeat-x;
+  margin-top: 0;
+
+}
+
+ #footer .footer-copyright {
+   background: #a6cb56;
+   border-top: none;
+ }
+
+#footer h4 {
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#footer h4 >.headingBold {
+  font-weight: bold;
+}
+#footer .phone {
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+#footer .shopify-buy__btn {
+  
+}
+
+
+/*=================testimonial homepage========================*/
+
+.blockquote {
+  font-weight:
+  text-shadow:
+}
+
+
+/*=================Span Classes for index.html========================*/
+#home-intro .homeEmphasis {
+  color: #78B657;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.homeInformation {
+  color: #78B657;
+}
