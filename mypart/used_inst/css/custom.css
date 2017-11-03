@@ -1,5 +1,11 @@
 /* Add here all your CSS customizations */
 
+/*=================Global CSS========================*/
+
+.page-header {
+  background-color: #494743;
+}
+
 /*=================Slider========================*/
 .slider-container .main-label {
   color: #fff;
@@ -19,10 +25,10 @@
 
 }
 
-/*=================Header Call to action========================*/
+/*=================Header Call to action index.html========================*/
 
 .home-intro {
-  background-color: #BDBDBD;
+  background-color: #494743;
 }
 
 
@@ -42,7 +48,45 @@ section.section.instruments{
   border-top: none;
 }
 
+.newInstrumets {
+  list-style: none;
+}
 
+
+/*=================Remanufactured Instruments Page========================*/
+.instrumentsPage {
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn-primary .resetButton {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/*=================New Instruments and Supply Page========================*/
+
+.return {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.returnPolicy {
+  font-size: 11px;
+}
+
+.instrumentThumbHorizontalRule {
+  margin: 0;
+}
+
+.instrumentThumbnailDescription {
+  color: grey;
+}
+
+.instrumentThumbnailDescription:hover {
+  text-decoration: none;
+
+}
 /*=================footer========================*/
 #footer {
   background-image: url("../img/footer-bg1.gif");
@@ -71,7 +115,7 @@ section.section.instruments{
   letter-spacing: 5px;
 }
 #footer .shopify-buy__btn {
-  
+
 }
 
 

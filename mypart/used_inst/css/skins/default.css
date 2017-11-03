@@ -1507,10 +1507,11 @@ section.page-header h1 {
 	border-bottom-color: #0088cc;
 }
 
-section.page-header.custom-product {
+/*section.page-header.custom-product {
 	background-color: #0077b3;
 	border-top-color: #0081c2;
-}
+	background: url("../img/full_lab.jpg");
+}*/
 
 html .page-header-color.page-header-primary {
 	background-color: #0088cc;
