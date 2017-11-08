@@ -5961,7 +5961,7 @@ section.timeline .timeline-box .owl-carousel {
 
 /* Style 2 */
 .testimonial.testimonial-style-2 {
-	text-align: center;
+	text-align: left;
 }
 
 .testimonial.testimonial-style-2 blockquote {
@@ -5983,7 +5983,7 @@ section.timeline .timeline-box .owl-carousel {
 }
 
 .testimonial.testimonial-style-2 .testimonial-author {
-	padding: 0;
+	padding: 5%;
 	margin: 6px 0 0;
 }
 

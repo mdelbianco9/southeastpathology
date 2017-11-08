@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<title>Coverslipper</title>
+		<title>Contact Us | Porto - Responsive HTML5 Template 5.7.2</title>
 
 		<meta name="keywords" content="HTML5 Template" />
 		<meta name="description" content="Porto - Responsive HTML5 Template">
@@ -36,11 +36,6 @@
 		<link rel="stylesheet" href="css/theme-elements.css">
 		<link rel="stylesheet" href="css/theme-blog.css">
 		<link rel="stylesheet" href="css/theme-shop.css">
-
-		<!-- Current Page CSS -->
-		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skins/sepisSkin.css">
@@ -159,7 +154,7 @@
 																<a href="#">Remanufactured Instruments</a>
 																<ul class="dropdown-menu">
 
-																	<li><a href="index-header-center.html">Mircotomes</a></li>
+																	<li><a href="portfolio-grid-4-columns.html">Mircotomes</a></li>
 																	<li><a href="index-header-below-slider.html">Cryostats</a></li>
 																	<li><a href="index-header-full-video.html">Coverslippers</a></li>
 																	<li><a href="index-header-narrow.html">Tissue Processors</a></li>
@@ -178,6 +173,9 @@
 																	<li><a href="index-navigation-dark-dropdown.html">Dark Dropdown</a></li>
 																	<li><a href="index-navigation-colors.html">Colors</a></li>
 																</ul>
+															</li>
+															<li>
+																<a href="#">Full Lab Orders</a>
 															</li>
 
 														</ul>
@@ -349,203 +347,128 @@
 					</div>
 				</div>
 			</header>
+
 			<div role="main" class="main">
+
+				<section class="page-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="breadcrumb">
+									<li><a href="#">Home</a></li>
+									<li class="active">Contact Us</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h1>Contact Us</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+				<div id="googlemaps" class="google-map"></div>
+
 				<div class="container">
-					<h2>Coverslippers</h2>
-					<ul class="nav nav-pills sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-						<li data-option-value="*" class="active"><a href="#">Show All</a></li>
-						<li data-option-value=".leica"><a href="#">Leica</a></li>
-						<li data-option-value=".sakura"><a href="#">Sakura</a></li>
-						<li data-option-value=".thermo"><a href="#">Thermo</a></li>
-						<li data-option-value=".microm"><a href="#">Microm</a></li>
-					</ul>
-					<hr>
-					<!--===================================Leica Coverslippers=====================================-->
-					
+
 					<div class="row">
-						<div class="sort-destination-loader sort-destination-loader-showing">
-							<ul class="portfolio-list sort-destination" data-sort-id="portfolio">
+						<div class="col-md-6">
 
-								<!-- New Format -->
-								<li class="col-md-3 col-sm-6 col-xs-12 isotope-item leica">
-									<div class="portfolio-item">
-										<a href="leica-2255-microtome.html" class="instrumentThumbnailDescription">
-											<span class="thumb-info thumb-info-lighten ">
-												<span class="thumb-info-wrapper">
-													<img src="img/Leica-RM-2255.jpg" class="img-responsive" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Leica CV 5030</span>
-														<span class="thumb-info-type">Coverslipper</span>
-													</span>
-												</span>
-												<hr class="instrumentThumbHorizontalRule">
-												<span class="thumb-info-caption">
-													<span class="thumb-info-caption-text">The <strong>Leica CV 5030</strong> is a fully automated glass coverslipper that produces slides with superior optical quality for reliable long-term storage.  It can handle a large variety of slide racks from different suppliers making it a very flexible system.
- 													</span>
-												</span>
-											</span>
-										</a>
+							<div class="alert alert-success hidden mt-lg" id="contactSuccess">
+								<strong>Success!</strong> Your message has been sent to us.
+							</div>
+
+							<div class="alert alert-danger hidden mt-lg" id="contactError">
+								<strong>Error!</strong> There was an error sending your message.
+								<span class="font-size-xs mt-sm display-block" id="mailErrorMessage"></span>
+							</div>
+
+							<h2 class="mb-sm mt-sm"><strong>Contact</strong> Us</h2>
+							<form id="contactForm" action="php/contact-form.php" method="POST">
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-6">
+											<label>Your name *</label>
+											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+										</div>
+										<div class="col-md-6">
+											<label>Your email address *</label>
+											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+										</div>
 									</div>
-								</li>
-								
-
-								<!--  ====================================================================== -->
-								
-
-									<!--============================ Sakura Cover Slipper ============================-->
-								<!--========================================================================-->
-
-								<!-- New Format -->
-								<li class="col-md-3 col-sm-6 col-xs-12 isotope-item sakura">
-									<div class="portfolio-item">
-										<a href="leica-2255-microtome.html" class="instrumentThumbnailDescription">
-											<span class="thumb-info thumb-info-lighten ">
-												<span class="thumb-info-wrapper">
-													<img src="img/Leica-RM-2255.jpg" class="img-responsive" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Sakura 4740 Film</span>
-														<span class="thumb-info-type">Coverslipper</span>
-													</span>
-												</span>
-												<hr class="instrumentThumbHorizontalRule">
-												<span class="thumb-info-caption">
-													<span class="thumb-info-caption-text">The <strong>Sakura 4740 Film</strong> is the next step in automation. Sakura Finetek can now provide your laboratory with a total solution for film coverslipping linked to a multiple slide stainer for both routine and special staining.
- 													</span>
-												</span>
-											</span>
-										</a>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-12">
+											<label>Subject</label>
+											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
+										</div>
 									</div>
-								</li>
-
-								<!-- New Format -->
-								<li class="col-md-3 col-sm-6 col-xs-12 isotope-item sakura">
-									<div class="portfolio-item">
-										<a href="leica-2255-microtome.html" class="instrumentThumbnailDescription">
-											<span class="thumb-info thumb-info-lighten ">
-												<span class="thumb-info-wrapper">
-													<img src="img/Leica-RM-2255.jpg" class="img-responsive" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Sakura SCA 4764 Tape</span>
-														<span class="thumb-info-type">Coverslipper</span>
-													</span>
-												</span>
-												<hr class="instrumentThumbHorizontalRule">
-												<span class="thumb-info-caption">
-													<span class="thumb-info-caption-text">The <strong>Sakura SCA 4764 Tape</strong> offers more reliable, maintenance free service than practically any other coverslipper on the market.
- 													</span>
-												</span>
-											</span>
-										</a>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-12">
+											<label>Message *</label>
+											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required></textarea>
+										</div>
 									</div>
-								</li>
-
-								<!-- New Format -->
-								<li class="col-md-3 col-sm-6 col-xs-12 isotope-item sakura">
-									<div class="portfolio-item">
-										<a href="leica-2255-microtome.html" class="instrumentThumbnailDescription">
-											<span class="thumb-info thumb-info-lighten ">
-												<span class="thumb-info-wrapper">
-													<img src="img/Leica-RM-2255.jpg" class="img-responsive" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Sakura-Miles 4764 Tape</span>
-														<span class="thumb-info-type">Coverslipper</span>
-													</span>
-												</span>
-												<hr class="instrumentThumbHorizontalRule">
-												<span class="thumb-info-caption">
-													<span class="thumb-info-caption-text">The <strong>Sakura-Miles 4764 Tape</strong> offers more reliable, maintenance free service than practically any other coverslipper on the market.
- 													</span>
-												</span>
-											</span>
-										</a>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<input type="submit" value="Send Message" class="btn btn-primary btn-lg mb-xlg" data-loading-text="Loading...">
 									</div>
-								</li>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-6">
 
-								<!-- New Format -->
-								<li class="col-md-3 col-sm-6 col-xs-12 isotope-item sakura">
-									<div class="portfolio-item">
-										<a href="leica-2255-microtome.html" class="instrumentThumbnailDescription">
-											<span class="thumb-info thumb-info-lighten ">
-												<span class="thumb-info-wrapper">
-													<img src="img/Leica-RM-2255.jpg" class="img-responsive" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Sakura GLAS</span>
-														<span class="thumb-info-type">Coverslipper</span>
-													</span>
-												</span>
-												<hr class="instrumentThumbHorizontalRule">
-												<span class="thumb-info-caption">
-													<span class="thumb-info-caption-text">The <strong>Sakura GLAS</strong> coverslipper can load up to 60 slides per run and coverslipped slides are produced within minutes. At maximum capacity this coverslipper will process 400 slides per hour with reliable quality. Easy to use menu-driven programs prompt users smoothly through the processing functions.
- 													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</li>
+							<h4 class="heading-primary mt-lg">Get in <strong>Touch</strong></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-						<!--  ============================================================= -->
+							<hr>
 
-						<!-- ====================Thermo Coverslipper ====================== -->
-
-								<!-- New Format -->
-								<li class="col-md-3 col-sm-6 col-xs-12 isotope-item thermo">
-									<div class="portfolio-item">
-										<a href="leica-2255-microtome.html" class="instrumentThumbnailDescription">
-											<span class="thumb-info thumb-info-lighten ">
-												<span class="thumb-info-wrapper">
-													<img src="img/Leica-RM-2255.jpg" class="img-responsive" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Thermo Clearview</span>
-														<span class="thumb-info-type">Coverslipper</span>
-													</span>
-												</span>
-												<hr class="instrumentThumbHorizontalRule">
-												<span class="thumb-info-caption">
-													<span class="thumb-info-caption-text">The <strong>Thermo Clearview</strong> is the ultimate in simplicity and walk-away operation.  You simply place a basket of slides on to the load rail, close the door, and the ClearVue does the rest.  This coverslipper has a very wide range of compatibility with many different stainers including the Thermo-Shandon Varistains, the Sakura DRS2000, and the Leica XL Autostainer. 
- 													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</li>
-
-						<!-- ================================================================= -->
-
-						<!-- ======================== Microm Coverslipper ==================== -->
-
-								<!-- New Format -->
-								<li class="col-md-3 col-sm-6 col-xs-12 isotope-item microm">
-									<div class="portfolio-item">
-										<a href="leica-2255-microtome.html" class="instrumentThumbnailDescription">
-											<span class="thumb-info thumb-info-lighten ">
-												<span class="thumb-info-wrapper">
-													<img src="img/Leica-RM-2255.jpg" class="img-responsive" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Microm CTM6 Glass</span>
-														<span class="thumb-info-type">Coverslipper</span>
-													</span>
-												</span>
-												<hr class="instrumentThumbHorizontalRule">
-												<span class="thumb-info-caption">
-													<span class="thumb-info-caption-text">The <strong>Microm CTM6 Glass</strong> is capable of coverslipping up to 400 slides per hour with continuous slide rack loading capabilities. The slide baskets can contain either 19 or 30 slides each. User intuitive operation is made easy via a touchpad. 
- 													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</li>
-
-
-
-						<!-- ==================================================================== -->
-								
-							
+							<h4 class="heading-primary">The <strong>Office</strong></h4>
+							<ul class="list list-icons list-icons-style-3 mt-xlg">
+								<li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</li>
+								<li><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-789</li>
+								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></li>
 							</ul>
+
+							<hr>
+
+							<h4 class="heading-primary">Business <strong>Hours</strong></h4>
+							<ul class="list list-icons list-dark mt-xlg">
+								<li><i class="fa fa-clock-o"></i> Monday - Friday - 9am to 5pm</li>
+								<li><i class="fa fa-clock-o"></i> Saturday - 9am to 2pm</li>
+								<li><i class="fa fa-clock-o"></i> Sunday - Closed</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<section class="call-to-action call-to-action-default with-button-arrow call-to-action-in-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="call-to-action-content">
+								<h3>Porto is <strong>everything</strong> you need to create an <strong>awesome</strong> website!</h3>
+								<p>The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+							</div>
+							<div class="call-to-action-btn">
+								<a href="http://themeforest.net/item/porto-responsive-html5-template/4106987" target="_blank" class="btn btn-lg btn-primary">Buy Now!</a><span class="arrow hlb hidden-xs hidden-sm hidden-md" data-appear-animation="rotateInUpLeft" style="top: -12px;"></span>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-
+			</section>
 
 			<footer class="short" id="footer">
 				<div class="container">
@@ -598,6 +521,119 @@
 								<div class="row">
 									<div class="col-md-4">
 										<input type="submit" value="Send Message" class="btn btn-primary mb-xl" data-loading-text="Loading...">
+										<div id='product-component-c78a077fa00'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'sepis.myshopify.com',
+      apiKey: '3a6752fa1dd1a9d2e7bae8a8717165d0',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [61238870043],
+        node: document.getElementById('product-component-c78a077fa00'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": ".1px",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": false,
+      "title": false,
+      "variantTitle": false,
+      "price": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "."
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+
+        }
+      },
+      "compareAt": {
+        "font-size": "1px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 									</div>
 									<div class="col-md-8">
 										<div class="alert alert-success hidden" id="contactSuccess">
@@ -636,11 +672,69 @@
 		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
 
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+
 		<!-- Theme Custom -->
 		<script src="js/custom.js"></script>
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQijDiXx2pKlUdgUmqfRuMmitlmlq_4w0"></script>
+		<script>
+
+			/*
+			Map Settings
+
+				Find the Latitude and Longitude of your address:
+					- http://universimmedia.pagesperso-orange.fr/geo/loc.htm
+					- http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+
+			*/
+
+			// Map Markers
+			var mapMarkers = [{
+				address: "New York, NY 10017",
+				html: "<strong>New York Office</strong><br>New York, NY 10017",
+				icon: {
+					image: "img/pin.png",
+					iconsize: [26, 46],
+					iconanchor: [12, 46]
+				},
+				popup: true
+			}];
+
+			// Map Initial Location
+			var initLatitude = 40.75198;
+			var initLongitude = -73.96978;
+
+			// Map Extended Settings
+			var mapSettings = {
+				controls: {
+					panControl: true,
+					zoomControl: true,
+					mapTypeControl: true,
+					scaleControl: true,
+					streetViewControl: true,
+					overviewMapControl: true
+				},
+				scrollwheel: false,
+				markers: mapMarkers,
+				latitude: initLatitude,
+				longitude: initLongitude,
+				zoom: 16
+			};
+
+			var map = $('#googlemaps').gMap(mapSettings);
+
+			// Map Center At
+			var mapCenterAt = function(options, e) {
+				e.preventDefault();
+				$('#googlemaps').gMap("centerAt", options);
+			}
+
+		</script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>

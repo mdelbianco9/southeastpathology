@@ -137,3 +137,124 @@ section.section.instruments{
 .homeInformation {
   color: #78B657;
 }
+
+
+/*=====Marcus===========Full Lab Orders==========================*/
+
+/*Author of testimonals*/
+.test-author {
+  text-align: left;
+  padding-left: 5%!important;
+  margin-top: 2%;
+}
+
+.testimonial_header {
+  margin-top: 1em;
+}
+
+.testimonial h5 {
+  margin-top: 4em;
+}
+
+/*Both UL's*/
+.list1 {
+  list-style: none;
+  text-align: left;
+  font-size: 2.0rem;
+  color: green;
+  line-height: 3rem;
+}
+
+.list1 li {
+  display: inline;
+  margin: 1rem;
+  font-family: inherit
+}
+
+.list1 li:hover {
+  font-size: 2.1rem;
+  cursor: crosshair;
+}
+
+/*Targets only the first UL*/
+.col-md-12 ul:first-child li {
+  border-right: 1px solid black;
+  padding-right: .1em;
+}
+
+/*Targets the 2nd UL*/
+.col-md-12 ul:nth-child(2) {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+/*The 2 paragraphs */
+.services-info {
+  font-size: 1.2em;
+  margin-top: 2em;
+  letter-spacing: .05em; 
+}
+
+/*Div with images in it*/
+.img-row {
+  text-align: center;
+}
+
+.img-row img {
+  display: inline;
+  width: 15em;
+  margin: .8em 2em;
+}
+
+.form1 {
+  margin-top: 3em;
+}
+
+.mb-sm {
+  margin-bottom: 1em;
+}
+
+.mb-sm strong {
+  color: green;
+}
+
+h5>a {
+  color: green;
+}
+
+
+/*==========Marcus=====Leica Bond Service==============*/
+
+.carousel1 {
+  border: 1px solid black;
+  height: 25rem;
+  margin-bottom: 2em;
+  cursor: crosshair;
+}
+
+
+.pricing-table {
+  padding-left: 9%;
+  margin-top: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
